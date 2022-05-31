@@ -13,4 +13,3 @@ else
     ServiceMenuDir="$HOME/.local/share/kio/servicemenus/"
     install
 fi
-echo -e "\033[32m结束安装\033[0m"
