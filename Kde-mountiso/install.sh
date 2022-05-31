@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 install() {
-    mkdir "$HOME/.local/share/Scripts' -p
+    mkdir "$HOME/.local/share/Scripts" -p
     wget https://raw.githubusercontent.com/world-nb-organization/Scripts/main/Kde-mountiso/mountiso.sh -O "$HOME/.local/share/Scripts/mountiso.sh"
     wget https://raw.githubusercontent.com/world-nb-organization/Scripts/main/Kde-mountiso/mountiso.desktop -O "$ServiceMenuDir/mountiso.desktop"
     chmod 777 -R "$HOME/.local/share/Scripts" "$ServiceMenuDir"
