@@ -6,7 +6,7 @@ Actions=MountISO;
 X-KDE-AuthorizeAction=shell_access
 [Desktop Action MountISO]
 TryExec=mount
-Exec=kdesu bash ~/.local/share/Scripts/mountiso.sh %f
+Exec=kdesu bash /usr/share/Scripts/mountiso.sh %f
 Icon=application-x-cd-image
 
 Name[zh_CN]=挂载ISO
